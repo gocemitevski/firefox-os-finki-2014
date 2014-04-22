@@ -167,6 +167,11 @@ footer a{
 	font-weight: 600;
 }
 
+.addthis_default_style{
+	margin: 1rem auto;
+	display: inline-block;
+}
+
 @media (max-width: 361px) {
 	.hidden-xxs {
 		display: none !important;
