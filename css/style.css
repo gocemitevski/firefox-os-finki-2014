@@ -157,6 +157,16 @@ footer a{
 	color: inherit;
 }
 
+.ffos-programa th{
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.ffos-programa h4{
+	margin-top: 0;
+	font-weight: 600;
+}
+
 @media (max-width: 361px) {
 	.hidden-xxs {
 		display: none !important;
