@@ -210,4 +210,20 @@ footer a{
 	.ffos-headline{
 		font-size: 3.857rem;
 	}
+	.navbar-brand{
+		height: auto;
+	}
+	.navbar-brand,
+	.navbar-toggle{
+		float: none;
+		margin: auto;
+		display: block;
+	}
+	.navbar-toggle{
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+	.navbar-header{
+		text-align: center
+	}
 }
