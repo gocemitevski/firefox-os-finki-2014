@@ -1,11 +1,17 @@
 body {
 	font-family: 'Open Sans', sans-serif;
-	padding-top: 50px;
 	color: #4D4E53;
 }
 
 a{
 	color: #0095DD;
+}
+
+.page-content:before{
+	content: " ";
+	padding-top: 50px;
+	display: block;
+	visibility: hidden;
 }
 
 .page-content{
@@ -230,5 +236,8 @@ footer a{
 	}
 	.navbar-header{
 		text-align: center
+	}
+	.page-content:before{
+		margin-top: 50px
 	}
 }
