@@ -1,7 +1,13 @@
 body {
 	font-family: 'Open Sans', sans-serif;
-	padding-top: 50px;
 	color: #4D4E53;
+}
+
+// Fixes hash links not respecting container padding
+.tab-content section:before{
+	padding-top: 50px;
+	display: block;
+	content: ' ';
 }
 
 a{
@@ -230,5 +236,10 @@ footer a{
 	}
 	.navbar-header{
 		text-align: center
+	}
+
+	// Fixes hash links not respecting container padding
+	.tab-content section:before{
+		padding-top: 100px
 	}
 }
