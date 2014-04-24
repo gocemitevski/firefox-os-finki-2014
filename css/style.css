@@ -3,6 +3,10 @@ body {
 	color: #4D4E53;
 }
 
+.lead{
+	font-weight: inherit;
+}
+
 a{
 	color: #0095DD;
 }
@@ -189,6 +193,12 @@ footer a{
 
 	.ffos-headline-xs{
 		font-size: 3.857rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.lead{
+		font-size: 18px;
 	}
 }
 
